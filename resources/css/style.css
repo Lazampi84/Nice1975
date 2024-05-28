@@ -1,0 +1,28 @@
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: red;
+    transition: .5s;
+}
+.nav-link {
+    position: relative;
+
+}
