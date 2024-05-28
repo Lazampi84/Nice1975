@@ -18,7 +18,7 @@
 
 <body>
     <x-navbar />
-    <div class="bg-white container ">{{ $slot }}</div>
+    <div class="bg-white container bg-custum ">{{ $slot }}</div>
 
     <script src="https://kit.fontawesome.com/75eaebdc32.js" crossorigin="anonymous"></script>
 

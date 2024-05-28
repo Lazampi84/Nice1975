@@ -6,7 +6,11 @@ use Illuminate\Http\Request;
 
 class PublicController extends Controller
 {
-        public function welcome() {
+    public function welcome() {
         return view('welcome');
+    }
+
+    public function contact() {
+        return view('contattaci');
     }
 }

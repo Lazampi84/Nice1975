@@ -21,3 +21,8 @@ Route::get('/projects/purificatore', [ProjectsController::class, 'purificatore']
 //rotta gadget
 Route::get('/products/index', [ProductsController::class, 'index'])
     ->name('products.index');
+
+//rotta contatti
+
+Route::get('/contattaci', [PublicController::class, 'contact'])
+    ->name('contattaci');
