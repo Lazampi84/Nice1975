@@ -1,14 +1,10 @@
 <x-layout title="I nostri Prodotti">
 
-    <header class="header pt-5 articleCont mt-5">
-        <div class="container-fluid">
-            <div class="row justify-content-center align-content-center h-100 mt-5">
-                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
-                    <h1 class="text-center p-2 textOmbre">I Nostri Prodotti</h1>
-                </div>
-            </div>
+<div class="container-fluid bg-info">
+    <div class="row justify-content-evenly">
+        <div class="col-12  p-5 mb-3 mt-3 ">
+            <h1 class="mt-1 mb-5 text-center title">PROGETTI E COLLABORAZIONI</h1>
         </div>
-    </header>
 
 
 

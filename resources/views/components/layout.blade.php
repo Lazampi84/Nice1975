@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
-
+{{-- data-bs-theme="dark" --}}
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,12 +17,13 @@
 </head>
 
 <body>
-    <x-navbar />
-    <div class="bg-white container bg-custum ">{{ $slot }}</div>
+    <x-navbar/>
 
+
+        {{ $slot }}
+
+    <x-footer/>
     <script src="https://kit.fontawesome.com/75eaebdc32.js" crossorigin="anonymous"></script>
-
-    <x-footer />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
