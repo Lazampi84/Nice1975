@@ -24,9 +24,9 @@ class PublicController extends Controller
     {
         $name = $request->input('username');
         $email = $request->input('email');
-        $message = $request->input('message');
+        $usermessage = $request->input('message');
 
-        Mail::to($email)->send(new ContactMail());
+        Mail::to($email)->send(new ContactMail($name, $email, $usermessage));
 
         return redirect(route('homepage'))->with('message', 'Mail inviata con successo!');
     }

@@ -17,11 +17,14 @@ class ContactMail extends Mailable
     /**
      * Create a new message instance.
      */
-    public function __construct()
+
+    public $username, $useremail, $usermessage;
+
+    public function __construct($name, $mail, $message)
     {
-        // $this->username = $name;
-        // $this->useremail = $mail;
-        // $this->usermessage = $message;
+        $this->username = $name;
+        $this->useremail = $mail;
+        $this->usermessage = $message;
     }
 
     /**

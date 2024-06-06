@@ -13,9 +13,9 @@
             </div>
         </div>
     </div>
-    <div class="container mt-5">
+    <div class="container my-5 rounded">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 text-white">
                 @if (session('message'))
                     <div class="alert alert-success">
                         {{ session('message') }}
