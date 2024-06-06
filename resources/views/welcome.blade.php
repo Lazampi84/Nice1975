@@ -6,17 +6,24 @@
             </div>
         </div>
     </div> --}}
-        <header class="header">
-        <div class="container h-100 ">
-            <div class="row justify-content-center align-content-center h-100 ">
-                <div class="col-12 col-md-6 d-flex justify-content-center ">
-                    <h1 class="text-center title">NICE 1975</h1>
-
-                </div>
+    <div class="container-fluid d-flex justify-content-center">
+        <div class="row mt-5">
+            <div class="col-12 mt-5">
+                <h1 class="text-center p-5 mt-5 title">NICE 1975</h1>
             </div>
         </div>
-    </header>
-
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                @if (session('message'))
+                    <div class="alert alert-success">
+                        {{ session('message') }}
+                    </div>
+                @endif
+            </div>
+        </div>
+    </div>
     <x-description></x-description>
     <x-sezsquadra></x-sezsquadra>
     <x-sezprogetti></x-sezprogetti>
