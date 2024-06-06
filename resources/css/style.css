@@ -102,3 +102,14 @@
 .btn{
     text-decoration: none;
 }
+
+/* form contatti */
+.formContatti{
+    background: rgba(169, 169, 169, 0.66);
+    box-shadow: 0 8px 32px 0 rgb(241, 75, 75);
+    backdrop-filter: blur(13px);
+}
+
+.btnForm{
+    background-color: rgba(0, 0, 0, 0.573);
+}

@@ -22,7 +22,10 @@ Route::get('/projects/purificatore', [ProjectsController::class, 'purificatore']
 Route::get('/products/index', [ProductsController::class, 'index'])
     ->name('products.index');
 
-//rotta contatti
-
+//rotta pag contatti
 Route::get('/contattaci', [PublicController::class, 'contact'])
     ->name('contattaci');
+
+// rotta form contattaci
+Route::post('/contattaci/submit', [PublicController::class, 'submit'])
+    ->name('contact.submit');
