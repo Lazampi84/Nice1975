@@ -9,14 +9,8 @@ Route::get('/', [PublicController::class, 'welcome'])
     ->name('homepage');
 
 //rotte Progetti
-Route::get('/projects/poseidonia', [ProjectsController::class, 'poseidonia'])
-    ->name('projects.poseidonia');
-Route::get('/projects/sigarette', [ProjectsController::class, 'sigarette'])
-    ->name('projects.sigarette');
-Route::get('/projects/mostra', [ProjectsController::class, 'mostra'])
-    ->name('projects.mostra');
-Route::get('/projects/purificatore', [ProjectsController::class, 'purificatore'])
-    ->name('projects.purificatore');
+Route::get('/projects/progetti', [ProjectsController::class, 'progetti'])
+    ->name('projects.progetti');
 
 //rotta gadget
 Route::get('/products/index', [ProductsController::class, 'index'])

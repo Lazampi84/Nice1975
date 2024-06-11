@@ -21,15 +21,8 @@
         <li class="nav-item px-3">
           <a class="nav-link" href="{{ route('products.index') }}">Prodotti</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            I Nostri Progetti
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item fs-3" href="{{ route('projects.poseidonia') }}">Poseidonia Green Festival</a></li>
-            <li><a class="dropdown-item fs-3" href="{{ route('projects.sigarette') }}">Campagna anti "mozzicone"</a></li>
-            {{-- <li><a class="dropdown-item fs-3" href="{{ route('projects.purificatore') }}">Depuratore Rio </a></li> --}}
-          </ul>
+        <li class="nav-item px-3">
+          <a class="nav-link" href="{{ route('projects.progetti') }}">I nostriProgetti</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

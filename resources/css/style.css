@@ -53,6 +53,14 @@
 
  /* fine navbar */
 
+ .btnHome {
+     background-color: rgba(0, 0, 0, 0.573);
+     color: rgb(241, 75, 75);
+     border: 2px solid black;
+     box-shadow: 0 6px 25px 0 darkgrey;
+
+ }
+
 
 .logoFooter{
     width: 100px;
@@ -106,6 +114,11 @@
 
 .btn{
     text-decoration: none;
+}
+
+.poseidonia{
+    height: 400px;
+    width: 500px;
 }
 
 /* form contatti */
