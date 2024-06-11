@@ -1,11 +1,4 @@
 <x-layout title="Nice 1975">
-    {{-- <div class="container-fluid mt-5">
-        <div class="row mt-5 justify-content-center align-content-center h-100 title ">
-            <div class="col-12 justify-content-center align-items-center">
-                <h1 class="text-center mt-5 p-2 ">NICE 1975</h1>
-            </div>
-        </div>
-    </div> --}}
     <div class="container-fluid d-flex justify-content-center">
         <div class="row mt-5">
             <div class="col-12 mt-5">

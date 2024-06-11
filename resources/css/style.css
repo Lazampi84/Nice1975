@@ -1,9 +1,19 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
 /* Masthead */
 
 .title {
     color: rgb(241, 75, 75);
     font-weight: 500;
     text-shadow: 4px 4px 2px lightslategray;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+
+
 }
 
 .header {
@@ -60,6 +70,10 @@
      box-shadow: 0 6px 25px 0 darkgrey;
 
  }
+ .logoAmber{
+    width: 250px;
+    height: 50px;
+ }
 
 
 .logoFooter{
@@ -77,31 +91,13 @@
     color: rgb(241, 75, 75);
 }
 
-/* carosello */
+/* carosello home */
+.caroselSquadra{
+    width: 700px;
+    height: 900px;
+    border-radius: 5%;
+}
 
-        .swiper {
-            width: 50%;
-            height: 100%;
-        }
-
-        .swiper-slide {
-            text-align: center;
-            font-size: 18px;
-            background: #fff;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .swiper-slide img {
-            display: block;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        .freccia{
-            background-color: black;
-        }
 
 /* sezione progetti */
 .projects {
@@ -139,4 +135,10 @@
 .qrMozziconi{
     width: 700px;
     height: 700px;
+}
+/* Carosello prodotti */
+.caroselColori{
+    width: 700px;
+    height: 600px;
+    border-radius: 5%;
 }

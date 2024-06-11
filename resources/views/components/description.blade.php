@@ -1,8 +1,8 @@
 
-<div class="container-fluid">
-    <div class="row align-items-center">
-        <div class="col-12">
-            <img src="/media/home.png" class= " d-block mx-lg-auto imgHome" loading="lazy">
+<div class="container">
+    <div class="row align-items-center justify-content-center">
+        <div class="col-12  justify-content-center align-content-center d-flex">
+            <img class= "img-fluid imgHome shadow justify-content-center align-content-center" src="/media/home.jpg">
         </div>
     </div>
 </div>
@@ -23,7 +23,7 @@
              <p class="mb-5">La tutela dell'ambiente è una delle nostre priorità. Nice1975  si impegna attivamente nella protezione dell'ecosistema sponsorizzando progetti di sostenibilità ambientale. Supportiamo iniziative locali e globali volte a ridurre l'impatto ambientale e promuovere progetti ecologici.</p>
             <a class="text-decoration-none justify-content-center" href="{{ route('projects.progetti') }}"><button class="btn btnHome fs-2 my-5">I nostri progetti</button></a>
             <p class="mt-5 fs-1 text-center title">Nice1975 e il Nuoto in Mare</p>
-            <p>In collaborazione con il nostro partner Amber Green abbiamo riunito appassionati ed ex atleti in una squadra che parteciperà a gare in territorio nazionale. La squadra, gareggerà in diverse competizioni per sensibilizzare l'opinione pubblica sull'importanza della tutela del mare e raccogliere fondi per i progetti ecologici.</p>
+            <p>In collaborazione con il nostro partner <img class="logoAmber" src="/media/AmberGreen.jpg" alt=""></img> abbiamo riunito appassionati ed ex atleti in una squadra che parteciperà a gare in territorio nazionale. La squadra, gareggerà in diverse competizioni per sensibilizzare l'opinione pubblica sull'importanza della tutela del mare e raccogliere fondi per i progetti ecologici.</p>
             <p class="mt-5 fs-1 text-center">Obiettivi del Tour</p>
             <p class="text-decoration-underline">Sensibilizzazione:</p><p> Ogni gara sarà un'occasione per sensibilizzare il pubblico sull'importanza della protezione del mare e delle risorse idriche.</p>
             <p class="text-decoration-underline">Collaborazioni:</p><p> Collaboriamo con altre organizzazioni ecologiche e comunità locali per ampliare l'impatto delle iniziative di pulizia e conservazione.</p>
