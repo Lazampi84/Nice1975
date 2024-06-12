@@ -1,8 +1,8 @@
 <x-layout title="Nice 1975">
-    <div class="container-fluid d-flex justify-content-center">
-        <div class="row mt-5">
+    <div class="container-fluid d-flex justify-content-center mt-5">
+        <div class="row mt-5 ">
             <div class="col-12 mt-5">
-                <h1 class="text-center p-5 mt-5 title">NICE 1975</h1>
+                <img class="logoOrizz mt-5" src="/media/nice.jpg" alt="">
             </div>
         </div>
     </div>

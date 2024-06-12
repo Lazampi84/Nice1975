@@ -7,14 +7,19 @@
 /* Masthead */
 
 .title {
-    color: rgb(241, 75, 75);
+    color: whitesmoke;
     font-weight: 500;
-    text-shadow: 4px 4px 2px lightslategray;
-    font-family: "Open Sans", sans-serif;
+    text-shadow: 4px 4px 2px rgb(241, 75, 75);
+    font-family: 'FFF Tusj', sans-serif;
     font-optical-sizing: auto;
 
 
 }
+.logoOrizz{
+    width: 300px;
+    height: 80px;
+}
+
 
 .header {
     height: 30vh;;
@@ -42,8 +47,8 @@
 .navbar {
     font-family: "Montserrat", sans-serif;
     font-style: normal;
-    height: 150px;
-    margin-bottom: 50px;
+    height: 130px;
+
 }
 
 .nav-link {
@@ -58,7 +63,26 @@
 }
 
 .dropdown-menu{
-    border: 5px solid rgb(241, 75, 75);
+    border: 2px solid rgb(241, 75, 75);
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(43, 43, 43);
+}
+.linkNav{
+    text-decoration: none;
+    color: darkgray;
+
+}
+.navbar-toggler{
+    border: 2px solid rgb(241, 75, 75);
+    padding: 5px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.modaleNav{
+    margin-top: 10px;
+    background-color: rgb(43, 48, 53);
 }
 
  /* fine navbar */
@@ -75,16 +99,10 @@
     height: 50px;
  }
 
-
 .logoFooter{
     width: 100px;
     height: 100px;
 }
-
-/* h1{
-    color: rgb(241, 75, 75);
-    margin-top: 250px;
-} */
 
 /* Link del sito */
 .link{
@@ -116,6 +134,15 @@
     height: 400px;
     width: 500px;
 }
+.qrMozziconi {
+    height: 400px;
+    width: 500px;
+}
+.imgTombini {
+    width: 380px;
+    height: 300px;
+    border-radius: 5%;
+}
 
 /* form contatti */
 .formContatti{
@@ -132,10 +159,7 @@
     box-shadow: 0 6px 25px 0 black;
 }
 
-.qrMozziconi{
-    width: 700px;
-    height: 700px;
-}
+
 /* Carosello prodotti */
 .caroselColori{
     width: 700px;
