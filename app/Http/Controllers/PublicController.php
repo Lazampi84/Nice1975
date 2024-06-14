@@ -35,12 +35,7 @@ class PublicController extends Controller
         return redirect(route('homepage'))->with('message', 'Mail inviata con successo!');
     }
 
-    // public function submit2(Request $request)
-    // {
-    //     $name = $request->input('username');
-    //     $email = $request->input('email');
-    //     $usermessage = $request->input('message');
-
-
-    // }
+        public function privacyepolicy() {
+        return view('privacyepolicy');
+    }
 }

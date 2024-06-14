@@ -27,3 +27,6 @@ Route::post('/contattaci/submit', [PublicController::class, 'submit'])
 // rotta form contatti x nice
 Route::post('contattaci/submit2', [PublicController::class, 'submit2'])
 ->name('contact.submit2');
+
+Route::get('/privacy&Policy', [PublicController::class, 'privacyepolicy'])
+    ->name('privacyepolicy');

@@ -28,9 +28,7 @@
          <div class="col-12 mb-3 text-center">
              <h3 class="tx-1">Info</h3>
              <ul class="nav flex-column">
-                 <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-body-secondary">Privacy policy</a></li>
-                 <li class="nav-item mb-2"><a href=""
-                         class="nav-link p-0 text-body-secondary">Copyright</a></li>
+                 <li class="nav-item mb-2"><a href="{{ route('privacyepolicy') }}" class="nav-link p-0 text-body-secondary">Privacy policy</a></li>
              </ul>
          </div>
 
