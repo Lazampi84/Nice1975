@@ -61,7 +61,7 @@
         <div class="row justify-content-center align-content-center ">
             <div class="col-12 justify-content-center align-content-center" >
                 <p class="text-center mt-5 mb-3 fs-5"> Decorazione tombini per ricordare a tutti che....il Mare inizia Qui</p>
-                <img class="img-fluid imgTombini mx-3 mt-3 " data-aos="flip-left" src="/media/tombino1.jpg" alt="">
+                <img class="img-fluid imgTombini mx-3 mt-3 " data-aos="flip-left" src="/media/balena.jpg" alt="">
                 <img class="img-fluid imgTombini mx-3 mt-3 " data-aos="flip-right" src="/media/tombino2.jpg" alt="">
             </div>
         </div>
