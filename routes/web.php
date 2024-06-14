@@ -20,6 +20,10 @@ Route::get('/products/index', [ProductsController::class, 'index'])
 Route::get('/contattaci', [PublicController::class, 'contact'])
     ->name('contattaci');
 
-// rotta form contattaci
+// rotta form contattaci x utente
 Route::post('/contattaci/submit', [PublicController::class, 'submit'])
     ->name('contact.submit');
+
+// rotta form contatti x nice
+Route::post('contattaci/submit2', [PublicController::class, 'submit2'])
+->name('contact.submit2');

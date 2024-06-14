@@ -10,16 +10,14 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-class ContactMail extends Mailable
+class MailContact extends Mailable
 {
     use Queueable, SerializesModels;
 
     /**
      * Create a new message instance.
      */
-
     public $username, $useremail, $usermessage;
-
     public function __construct($name, $mail, $message)
     {
         $this->username = $name;
@@ -33,9 +31,7 @@ class ContactMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Grazie di averci contattato, ti risponderemo al più presto!',
-            from: new Address('info@griffegenova.com'),
-
+            subject: 'Mail Contact',
         );
     }
 
