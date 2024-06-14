@@ -111,8 +111,8 @@
 
 /* carosello home */
 .caroselSquadra{
-    width: 700px;
-    height: 900px;
+    width: 500px;
+    height: 600px;
     border-radius: 5%;
 }
 
@@ -157,6 +157,9 @@
     color: rgb(241, 75, 75);
     border: 2px solid black;
     box-shadow: 0 6px 25px 0 black;
+}
+.errori{
+    margin-right: 185px;
 }
 
 

@@ -34,11 +34,11 @@
     <div class="container-fluid d-flex  justify-content-between align-content-between ">
         <div class="row vw-100 justify-content-between align-item-center mx-5">
             <div class="col-12 col-md-6 justify-content-between align-content-between ">
-                <p class="text-center fs-5 mt-5">Per accedere al programma completo clicca sull'immagine</p>
+                <p class="text-center fs-6 mt-5">Per accedere al programma completo clicca sull'immagine</p>
                 <a href="https://posidoniagreenfestival.com/index.php/programma-bogliasco-2024/"><img class="rounded poseidonia d-block mx-lg-auto img-fluid mt-3 mb-5" src="/media/poseidonia.jpg" alt=""></a>
             </div>
             <div class="col-12 col-md-6 justify-content-between align-content-between">
-                <p class="text-center fs-5 mt-5">Per saperne di più, clicca sull'immagine o inquadra il QR Code con il cellulare</p>
+                <p class="text-center fs-6 mt-5">Per saperne di più, clicca sull'immagine o inquadra il QR Code con il cellulare</p>
                 <a href="https://posidoniagreenproject.org/il-mare-inizia-qui/"><img
                         class="rounded qrMozziconi d-block mx-lg-auto img-fluid mt-3 mb-5" src="/media/qrMozziconi.jpg"
                         alt=""></a>

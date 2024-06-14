@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Mail\ContactMail;
 use Illuminate\Http\Request;
+use App\Http\Requests\MailRequest;
 use Illuminate\Support\Facades\Mail;
 
 class PublicController extends Controller
@@ -20,7 +21,7 @@ class PublicController extends Controller
     //     return view('thankYou');
     // }
 
-    public function submit(Request $request)
+    public function submit(MailRequest $request)
     {
         $name = $request->input('username');
         $email = $request->input('email');
