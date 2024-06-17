@@ -6,7 +6,6 @@
         </div>
     </div>
 </div>
-
 <div class="container-fluid mt-5">
      <div class="row text-center ">
          <div class="col-12 p-5 justify-content-between fs-2">
