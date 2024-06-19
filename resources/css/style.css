@@ -148,14 +148,14 @@
 }
 
 /* form contatti */
-.formContatti{
+/* .formContatti{
     background: rgba(169, 169, 169, 0.66);
     box-shadow: 0 6px 25px 0 rgb(241, 75, 75);
     border: 2px solid black;
     backdrop-filter: blur(13px);
-}
+} */
 
-.btnForm{
+/* .btnForm{
     background-color: rgba(0, 0, 0, 0.573);
     color: rgb(241, 75, 75);
     border: 2px solid black;
@@ -163,12 +163,12 @@
 }
 .errori{
     margin-right: 185px;
-}
+} */
 
 
 /* Carosello prodotti */
 .caroselColori{
     width: 700px;
-    height: 600px;
+    height: 700px;
     border-radius: 5%;
 }
