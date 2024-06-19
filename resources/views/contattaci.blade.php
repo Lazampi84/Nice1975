@@ -24,7 +24,7 @@
     </div>
 </div>
 
-        <div class="container-fluid d-flex  justify-content-center ">
+        <div class="container-fluid d-flex  justify-content-center text-center">
         <div class="row vw-100 justify-content-center align-item-center mx-5">
             <div class="col-12 col-md-4 text-white my-5 justify-content-center align-item-center ">
                 <h3 class="mt-3">DOVE SIAMO</h3>
@@ -49,7 +49,7 @@
             </div>
 
 
-            <div class="col-12 col-md-6 justify-content-center align-item-center my-5 ">
+            {{-- <div class="col-12 col-md-6 justify-content-center align-item-center my-5 ">
                 <form class="p-5 rounded formContatti" method="POST" action="{{ route('contact.submit') }}">
                     @csrf
                     <div class="mb-3">
@@ -66,7 +66,7 @@
                     </div>
 
                     <button type="submit" class="btn btnForm">Invia</button>
-                </form>
+                </form> --}}
             </div>
         </div>
     </div>
