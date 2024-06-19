@@ -42,7 +42,7 @@
             <div class="col-12 justify-content-center align-content-center">
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="100">
+                        <div class="carousel-item active" data-bs-interval="1000">
                             <img class="caroselColori img-fluid" src="/media/colori/colori1.jpg" class="d-block w-100"
                                 alt="...">
                         </div>
@@ -100,7 +100,7 @@
             <div class="col-12 justify-content-center align-content-center">
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="100">
+                        <div class="carousel-item active" data-bs-interval="1000">
                             <img class="caroselColori img-fluid" src="/media/resina/pavResina.jpg" class="d-block w-100"
                                 alt="...">
                         </div>
